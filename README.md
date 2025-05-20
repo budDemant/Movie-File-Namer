@@ -22,7 +22,10 @@ This is a simple tool that helps label and re-direct movie files. The main movie
 
 
 ## Potential Extensions
-- WIP
+- GUI for path selection
+- Requirements for proper initial file structure
+- Error handling for invalid file path
+- Reverting file path to original state
 
 ## License
 MIT License
