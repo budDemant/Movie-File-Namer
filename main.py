@@ -16,6 +16,7 @@ largest_file = max(file_size.values())
 
 for key, value in file_size.items():
     if value == largest_file:
+        # file extension needs to be preserved (folders don't have file types)
         old_path = os.path.join(folder_path, key)
         name, ext = os.path.splitext(key)
         new_path = os.path.join(folder_path, folder_name + ext)
