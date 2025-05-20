@@ -1,12 +1,12 @@
 # Movie File Namer
 
-This is a simple tool that helps label and re-direct movie files. The main movie file will be renamed to the parent folder name (which should already be the movie name and year released), and the other files will be moved to an Extras sub-directory. This is the format that is required for a media server like Jellyfin.
+A simple tool that helps label and re-direct movie files. The main movie file will be renamed to the parent folder name (which should already be the movie name and year released), and the other files will be moved to an Extras sub-directory. This is the format that is required for a media server like Jellyfin.
 
 ## Project Overview
 - **Input:**
   - Directory that contains a movie file and its extras (if any)
 - **Output:**
-  - Movie file name will match the folder name
+  - Movie file name will match the directory name
   - Other files moved to sub-directory labeled "Extras"
 
 ## How It Works
