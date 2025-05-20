@@ -1,6 +1,6 @@
 # Movie file namer
 
-This is a simple tool that helps label and re-direct movie files. The main movie file will almost always be the largest file. The largest file will be labeled with the movie's title and year released, and the other files will be placed in a folder called "Extras". This is the format that is required for a media server like Jellyfin.
+This is a simple tool that helps label and re-direct movie files. The main movie file will almost always be the largest file. The largest file will be labeled with the parent folder name (should be movie's title and year released), and the other files will be placed in a folder called "Extras". This is the format that is required for a media server like Jellyfin.
 
 ## Project Overview
 - **Input:**

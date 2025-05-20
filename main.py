@@ -23,9 +23,9 @@ for key, value in file_size.items():
         print(key, 'renamed to', folder_name + ext)
     else:
         extras_path = os.path.join(folder_path, 'Extras')
-        # Create Extras folder if it doesn't already exist
-        os.makedirs(extras_path, exist_ok=True)
-        
-        # old_path = os.path.join(folder_path, key)
+        os.makedirs(extras_path, exist_ok=True) # create Extras folder
+        file_path = os.path.join(folder_path, key)
+        os.rename(file_path, os.path.join(extras_path, key))
+        print('moved', key, 'to', extras_path)
         
         
