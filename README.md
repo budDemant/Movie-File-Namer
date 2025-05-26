@@ -9,6 +9,14 @@ A simple tool that helps label and re-direct movie files. The main movie file wi
   - Movie file name will match the directory name
   - Other files moved to sub-directory labeled "Extras"
 
+## Movie File Structure
+Movies
+└── Best_Movie_Ever (2019)
+    ├── Best_Movie_Ever (2019) - 1080P.mp4
+    ├── Best_Movie_Ever (2019) - Directors Cut.mp4
+    └── Extras
+        └── Home recreation.mp4
+
 ## How It Works
 1. **List Directory Contents**
    - Each file is put in a dictionary, which lists each file's name and corresponding file size.
@@ -24,7 +32,7 @@ A simple tool that helps label and re-direct movie files. The main movie file wi
 - OS
 
 ## Getting Started
-1. Copy the path to the movie's files (ex: C:\Users\anthd\Videos\The_Matrix_1999).
+1. Copy the path to the movie's files (ex: C:\Users\user\Videos\The_Matrix_1999).
 2. Run the program.
 3. Paste the path in the terminal (Right-click or Ctrl+Shift+V).
 
